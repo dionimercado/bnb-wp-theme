@@ -7,8 +7,7 @@
   </head>
   <body <?php body_class() ?>>
 
-    <nav class="headerNav navbar navbar-expand-lg navbar-light bg-white mb-5 shadow-sm py-3">
-
+    <nav class="headerNav navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo home_url() ?>"><img width="350" height="auto" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png" alt="<?php bloginfo('name') ?>" height="60" /></a>
         <div class="">
