@@ -38,6 +38,8 @@ if ( ! isset( $content_width ) )
   		$footer1 = array(
   			'id'            => 'footer1',
   			'class'         => 'footer1',
+				'before_widget' => '',
+				'after_widget' 	=> '',
   			'name'          => __( 'Footer 1', 'bnb' ),
   		);
   		register_sidebar( $footer1 );
@@ -75,7 +77,7 @@ if ( ! isset( $content_width ) )
    */
   function bnb_enqueue_scripts() {
     wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
-    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Poppins:400,600,700' );
+    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Poppins:400,600,700|Montserrat:400,600&display=swap' );
     wp_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.4.1/css/all.css', array(), '5.4.1' );
   	wp_enqueue_style( 'bnb', get_template_directory_uri() . '/assets/css/bnb.css', array('bootstrap'), uniqid() );
     wp_enqueue_script( 'popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', array ( 'jquery' ), '1.14.3', true);

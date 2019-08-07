@@ -95,7 +95,7 @@
     </div>
   </section>
 
-  <section class="bg-white py-5 text-center">
+  <section class="bg-white pt-5 text-center">
     <div class="container">
       <div class="bg-dark text-white px-4 py-5 mb-5">
         <h3>¿POR QUE COMPRAR CON NOSOTROS?</h3>
@@ -132,11 +132,21 @@
           </div>
         </div>
       </div>
-      <img src="<?php echo wp_get_attachment_image_src( 18, 'full' )[0] ?>" alt="" style="position: relative; top: -120px; width: 100%; height: auto; z-index: 0;">
+      <img src="<?php echo wp_get_attachment_image_src( 18, 'full' )[0] ?>" alt="" style="position: relative; margin-top: -120px; width: 100%; height: auto; z-index: 0;">
+    </div>
+  </section>
+
+  <section class="bg-danger text-white text-center pt-5 pb-4" style="margin-top: -20px;">
+    <div class="container">
+      <h3>ESTAMOS PARA SERVIRLES</h3>
+      <small class="text-dark">BnB Hotel Supplier Puerto Rico</small>
+      <p>Cualquier duda o preguntas no duden en comunicarse con nosotros a nuestro correo electrónico.  </p>
     </div>
   </section>
 
   <div class="container">
-    <?php while(have_posts()) : the_post(); the_content(); endwhile; ?>
+    <?php //while(have_posts()) : the_post(); the_content(); endwhile; ?>
   </div>
+<?php get_footer() ?>
+
 <?php get_footer() ?>

@@ -2,9 +2,74 @@ body {
   background-color: #f7f5f3;
   color: #6C6C6C;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .btn {
   font-size: 14px;
   text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+.btn-danger {
+  background-color: #E5404E;
+  border-color: #E5404E;
+}
+
+.text-danger {
+  color: #E5404E;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6c6c6c;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #E5404E;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  font-size: 16px;
+}
+.footer a {
+  color: #E5404E;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer li a {
+  color: #6c6c6c;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+.footer .copyright {
+  background-color: #202020;
+  font-size: 14px;
 }
