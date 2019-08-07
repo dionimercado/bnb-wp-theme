@@ -12,6 +12,68 @@
     </div>
   </section>
 
+  <section class="bg-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="<?php echo wp_get_attachment_image_src( 23, 'large' )[0] ?>" alt="" class="p-5 p-md-0">
+        </div>
+        <div class="col-md-8 text-center">
+          <h2>ECO GREEN</h2>
+          <small class="text-danger">ALTA CALIDAD A UN EXCELENTE PRECIO</small>
+          <p>Linea de jabones y shampoo conditioner de primera calidad con una finapresentación. A precios que se ajustan a cualquier presupuesto.</p>
+          <a href="/store/ECOGREEN-c30697355" class="btn btn-danger">Ofertas Eco Green</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="<?php echo wp_get_attachment_image_src( 24, 'large' )[0] ?>" alt="">
+        </div>
+        <div class="col-md-8 text-center">
+          <h2>SIGNATURE NATÜRA</h2>
+          <small class="text-danger">PARA ESE HUESPÉD ESPECIAL</small>
+          <p>Linea de amenities hecha en Italia que por su fina presentación y exquisita fragancia ha revolucionado por años el mercado de grandes hoteles de lujo.Gracias a nuestro sistema, hoy podemos ponerlo al alcance de todosnuestros clientes.</p>
+          <a href="/store/SIGNATURE-SERIES-c31411771" class="btn btn-danger">Ofertas SIGNATURE NATÜRA</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="<?php echo wp_get_attachment_image_src( 25, 'large' )[0] ?>" alt="">
+        </div>
+        <div class="col-md-8 text-center">
+          <h2>TOALLAS</h2>
+          <small class="text-danger">ALLBRITE 100% ALGODÓN</small>
+          <p>Escogida por su calidad de hotel, blancura, confección, durabilidad y sobre todo su precio. Nuestro sistema de presentarlas en sets, le permitira a nuestros clientes, comprar lo que en realidad necesiten.</p>
+          <a href="/store/TOALLAS-c31994212" class="btn btn-danger">Ofertas TOALLAS</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="<?php echo wp_get_attachment_image_src( 26, 'large' )[0] ?>" alt="">
+        </div>
+        <div class="col-md-8 text-center">
+          <h2>ROPA DE CAMA</h2>
+          <small class="text-danger">CALIDAD Y RENDIMIENTO</small>
+          <p>Por años la marca Thomaston ha sido la preferida en la industria hotelera por su alta calidad y durabilidad.  Percale 180 hilos con la perfecta mezcla de tejidos, 50% Algodón y 50% Polyester que nos garantizan la suavidad, fortaleza y durabilidad que usted busca. Además, no hay queplancharlas. Fabricadas en USA.</p>
+          <a href="/store/ROPA-DE-CAMA-c32201827" class="btn btn-danger">Ofertas ROPA DE CAMA</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="<?php echo wp_get_attachment_image_src( 27, 'large' )[0] ?>" alt="">
+        </div>
+        <div class="col-md-8 text-center">
+          <h2>BOLSAS DE BASURA Y GUANTES</h2>
+          <small class="text-danger">CONVENIENCIA A UN EXCELENTE PRECIO</small>
+          <p>Un perfecto surtido de bolsas en los tamaños y cantidades que se ajustan a sus necesidades. Guantes de diferentes materiales para que escojan a su gusto, en grandes ofertas que le ahorraran dinero y tiempo.</p>
+          <a href="/store/LIMPIEZA-c31411789" class="btn btn-danger">Ofertas BOLSAS Y GUANTES</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <div class="container">
     <?php while(have_posts()) : the_post(); the_content(); endwhile; ?>
   </div>
