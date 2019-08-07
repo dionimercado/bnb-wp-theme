@@ -75,7 +75,7 @@
   <section class="bg-white py-5 text-center">
     <div class="mb-5">
       <h3>¿QUIENES SOMOS?</h3>
-      <img src="https://bnbhotelsupplierpr.com/index_htm_files/4414.png" alt="">
+      <img src="<?php echo get_template_directory_uri() ?>/assets/images/4414.png" alt="">
     </div>
     <div class="container">
       <div class="row">
@@ -95,7 +95,46 @@
     </div>
   </section>
 
-
+  <section class="bg-white py-5 text-center">
+    <div class="container">
+      <div class="bg-dark text-white px-4 py-5 mb-5">
+        <h3>¿POR QUE COMPRAR CON NOSOTROS?</h3>
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/4414.png" alt="">
+      </div>
+      <div class="position-relative px-5" style="z-index: 1">
+        <div class="row">
+          <div class="col-md-4">
+            <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Completely round image: 80x80">
+              <title>Completely round image</title>
+              <rect width="100%" height="100%" fill="#e5404e"></rect>
+              <text x="50%" y="50%" fill="#fff" dy=".3em">1</text>
+            </svg>
+            <h4 class="my-4">MAS DE 30 A&Ntilde;OS</h4>
+            <p>Llevamos sobre 30 años en la venta de artículos especializados en hospederías.</p>
+          </div>
+          <div class="col-md-4">
+            <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Completely round image: 80x80">
+              <title>Completely round image</title>
+              <rect width="100%" height="100%" fill="#e5404e"></rect>
+              <text x="50%" y="50%" fill="#fff" dy=".3em">2</text>
+            </svg>
+            <h4 class="my-4">EXCELENTE CALIDAD</h4>
+            <p>Nuestra experiencia nos ha enseñado la calidad de productos que este mercado busca.</p>
+          </div>
+          <div class="col-md-4">
+            <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Completely round image: 80x80">
+              <title>Completely round image</title>
+              <rect width="100%" height="100%" fill="#e5404e"></rect>
+              <text x="50%" y="50%" fill="#fff" dy=".3em">3</text>
+            </svg>
+            <h4 class="my-4">ENVIO GRATIS</h4>
+            <p>Tenemos almacén en Puerto Rico lo que permite que nuestras entregas sean rápidas (2 a 3 días) y envío gratis.</p>
+          </div>
+        </div>
+      </div>
+      <img src="<?php echo wp_get_attachment_image_src( 18, 'full' )[0] ?>" alt="" style="position: relative; top: -120px; width: 100%; height: auto; z-index: 0;">
+    </div>
+  </section>
 
   <div class="container">
     <?php while(have_posts()) : the_post(); the_content(); endwhile; ?>
