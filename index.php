@@ -72,6 +72,29 @@
     </div>
   </section>
 
+  <section class="bg-white py-5 text-center">
+    <div class="mb-5">
+      <h3>¿QUIENES SOMOS?</h3>
+      <img src="https://bnbhotelsupplierpr.com/index_htm_files/4414.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="<?php echo wp_get_attachment_image_src( 28, 'large' )[0] ?>" alt="" class="mb-4">
+          <h4>SUPLIDORES PARA HOSPEDERIAS</h4>
+          <small class="text-danger d-block mb-4">BED AND BREAKFAST, VACATION RENTALS Y HOTELES</small>
+          <p>Si eres propietario o encargado de un Vacation Rental, BnB, o de un pequeño o mediano Hotel aquí encontraras productos especificamente para ese mercado. Nuestros productos son de muy alta calidad y a precios razonables.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="<?php echo wp_get_attachment_image_src( 29, 'large' )[0] ?>" alt="" class="mb-4">
+          <h4>JABONES, SHAMPOO Y AMENIDADES</h4>
+          <small class="text-danger d-block mb-4">A PRECIOS ECONOMICOS</small>
+          <p>En nuestro catálogo en linea podrán encontrar una excelente selección de productos a precios que sabemos se ajustaran a sus necesidades. Hemos creado nuestra tienda en linea con la intención de que sea fácil de usar. Estamos convencidos que quedaran muy satisfechos con el servicio que les brindaremos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
   <div class="container">
