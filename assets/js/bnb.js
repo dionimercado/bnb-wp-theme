@@ -11,14 +11,14 @@ jQuery( function($) {
   });
 
   // jQuery to collapse the navbar on scroll
-  jQuery(window).scroll(function() {
-      if (jQuery("#header-nav").offset().top > 80) {
-          jQuery("#header-nav").addClass("shrink");
-          // jQuery("#navbar-arka").addClass("navbar-fixed-top");
-      } else {
-        jQuery("#header-nav").removeClass("shrink");
-        // jQuery("#navbar-arka").removeClass("navbar-fixed-top");
-      }
-  });
+  // jQuery(window).scroll(function() {
+  //     if (jQuery("#header-nav").offset().top > 80) {
+  //         jQuery("#header-nav").addClass("shrink");
+  //         // jQuery("#navbar-arka").addClass("navbar-fixed-top");
+  //     } else {
+  //       jQuery("#header-nav").removeClass("shrink");
+  //       // jQuery("#navbar-arka").removeClass("navbar-fixed-top");
+  //     }
+  // });
 
 });

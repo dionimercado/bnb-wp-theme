@@ -2,7 +2,7 @@
   <section class="position-relative">
     <?php echo do_shortcode('[rev_slider alias="slider-1"][/rev_slider]') ?>
     <div class="position-relative text-center w-100 d-none d-md-block" style="height: 0; z-index: 9;">
-      <img src="http://demo.bnbhotelsupplierpr.com/wp-content/uploads/2019/08/4454.png" alt="" style="position: absolute; top: -120px; transform: translateX(190px);">
+      <img src="https://bnbhotelsupplierpr.com/wp-content/uploads/2019/08/4454.png" alt="" style="position: absolute; top: -120px; transform: translateX(190px);">
     </div>
     <div class="container pt-5 pb-3 pb-mb-4 text-center" id="welcome">
       <h3><?php _e('Welcome', 'bnb') ?></h3>
@@ -11,7 +11,7 @@
       <p><?php _e('We are a company dedicated to the sale and distribution of especialized products for the hospitality industry. This page is for owners or the ones in charge of renting short-term lodging like vacation rentals, bed and breakfast, apartments, homestays, hostel, or small to medium hotels. Here you can find the quantity you need at the right price. We have more than thirty years of experience in the hospitality industry.', 'bnb') ?></p>
     </div>
     <div class="position-relative text-center w-100 d-md-none pb-4">
-      <img src="http://demo.bnbhotelsupplierpr.com/wp-content/uploads/2019/08/4454.png" alt="">
+      <img src="https://bnbhotelsupplierpr.com/wp-content/uploads/2019/08/4454.png" alt="">
     </div>
   </section>
 

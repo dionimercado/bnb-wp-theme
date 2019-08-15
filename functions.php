@@ -90,6 +90,8 @@ if ( ! isset( $content_width ) )
     wp_enqueue_script( 'jquery-easing', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js', array (), '1.4.1', true);
     wp_enqueue_script( 'bnb', get_template_directory_uri() . '/assets/js/bnb.js', array ( 'jquery', 'jquery-easing' ), uniqid(), true);
 
+		wp_dequeue_style("wpml-legacy-horizontal-list-0");
+
   }
   add_action( 'wp_enqueue_scripts', 'bnb_enqueue_scripts', 1000000000 );
 
